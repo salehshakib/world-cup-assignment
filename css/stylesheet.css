@@ -61,6 +61,20 @@ body {
     box-shadow: inset 0 0 0 0 #f9e506;
     transition: ease-out 0.5s;
     margin-bottom: 10px;
+    animation: bounce 1s infinite alternate;
+    position: relative;
+}
+
+@keyframes bounce {
+    
+    100%{
+        left:20px;
+    }
+    
+    0%{
+        left: -20px;
+    }
+    
 }
 
 .btn:hover {
