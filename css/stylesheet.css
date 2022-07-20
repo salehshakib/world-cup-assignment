@@ -429,6 +429,7 @@ footer ul {
 
     footer ul {
         display: block;
+        padding: 0;
     }
 
     footer ul li {
