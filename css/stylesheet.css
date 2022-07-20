@@ -355,8 +355,6 @@ footer ul {
 @media screen and (max-width: 576px) {
 
 
-    .container {}
-
     .first-section {
         display: flex;
         flex-direction: column;
@@ -404,12 +402,12 @@ footer ul {
     .upcoming-match-section {
         margin-top: 30px;
         display: block;
-        width: 90%;
+        width: 90%;     
     }
 
     .menu {
         background-color: #fff;
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -422,6 +420,7 @@ footer ul {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
+    
 
     footer h1 {
         font-size: 22px;
